@@ -19,7 +19,7 @@ public class Test2 {
                 .basePath("/booking/1").log().all()
                 .when()
                     .get()
-                .then().log().all()
+                 .then().log().all()
                 .statusCode(200);
 
     }
